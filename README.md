@@ -14,7 +14,7 @@ The various libraries that have been installed in this project are as follows:
 8. webbrowser
 9. os for logout shutdown and restart
 10.PyAutoGUI lets your Python scripts control the mouse and keyboard to automate interactions with other applications Here we're are using 
-   to take screenshots
+   to take screenshots 
 11.psutil (process and system utilities) is a cross-platform library for retrieving information on running processes and system
    utilization (CPU, memory, disks, network, sensors) in Python.
 12.pyjokes 

@@ -1,6 +1,6 @@
 # JARVIS_AI
 
-This project is created for the purpose of exploring various libraries in python and how they work. This is a part of an udemy course that teaches automation with python. 
+This project is created for the purpose of exploring various libraries in python and how they work. Here I have tried to explore automation with python.
 
 The various libraries that have been installed in this project are as follows: 
 
@@ -21,3 +21,6 @@ The various libraries that have been installed in this project are as follows:
    utilization (CPU, memory, disks, network, sensors) in Python.
    
 12.pyjokes 
+
+Some of the features of this project are: 
+

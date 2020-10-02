@@ -133,6 +133,16 @@ if __name__ == "__main__":
             result = wikipedia.summary(query, sentences=2)
             print(result)
             speak(result)
+        
+        elif 'hi' in query or 'hello' in query:
+            speak('Hello sir, how may I help you?')
+        
+        elif 'thanks' in query or 'thank you' in query:
+            speak('I am happy I could help you')
+        
+        elif 'bye' in query:
+            speak('Bye sir, see you next time')
+        
         elif "send email" in query:
             try:
                 speak("What message should I send?")
@@ -169,6 +179,23 @@ if __name__ == "__main__":
         elif "do you remember anything" in query:
             remember = open("data.txt", "r")
             speak("You said me to remember that " + remember.read()) 
+            
+        elif 'timer' in query or 'stopwatch' in query:
+
+            speak("For how many minutes?")
+            timesec = takeCommand()
+            timesec = timesec.replace('minutes', '')
+            timesec = timesec.replace('minute', '')
+            timesec = timesec.replace('for', '')
+            timesec = float(timesec)
+            timesec = timesec * 60
+            speak(f'I will remind you in {timesec} seconds')
+
+            time.sleep(timesec)
+            speak('Your time has been finished sir')
+                
+                
+                
         elif "screenshot" in query:
             screenshot()
             speak("Done")

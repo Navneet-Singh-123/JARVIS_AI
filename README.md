@@ -24,3 +24,17 @@ The various libraries that have been installed in this project are as follows:
 
 Some of the features of this project are: 
 
+* Allows the voice to be both male and female.
+* As soon as the project runs it wish greet you the current time and date.
+* It is capable of telling the current time.
+* Current date.
+* Searching for a particular topic from wikipedia/
+* Sending emails providing your google account allows it.
+* It can google search a topic and open a website.
+* Also capable logging out, shutting down and restarting the system.
+* Playing songs from a particular directory in your pc.
+* Remembering a text.
+* Take screen shot of you screen
+* CPU status
+* Telling a joke
+

@@ -37,4 +37,5 @@ Some of the features of this project are:
 * Take screen shot of you screen
 * CPU status
 * Telling a joke
+* Timer 
 
